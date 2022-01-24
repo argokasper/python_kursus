@@ -17,14 +17,6 @@ class Group:
         # return '[{0}]'.format(",".join(self.names))
         return 'test'
 
-
-
-
-
-
-
-
-
 entities = ['Hardy', 'Mihail', 'Heigo', 'Henri', 'Timo', 'Hannes'] # meie sisend; sisendi indeksid: [0, 1, 2, 3, 4, 5]
 group_size = 2 #
 
@@ -54,5 +46,3 @@ for entity in range(0, enitites_original_length):
 
 for group in groups:
     print(group.names)
-
-
